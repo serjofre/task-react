@@ -31,7 +31,7 @@ function TaskForm() {
         autoFocus
       />
       <textarea
-        placeholder="Escribe la direccion de la tarea"
+        placeholder="Escribe la acción de la tarea"
         onChange={(e) => setDescription(e.target.value)}
         className="bg-slate-300 p-3 w-full mb-2"
         value={description}
